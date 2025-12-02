@@ -1,1 +1,281 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>موقع عبدالفضيل الشخصي</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700&family=Tajawal:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- زر الانتقال للأعلى -->
+    <div class="scroll-top" id="scrollTop">
+        <i class="fas fa-arrow-up"></i>
+    </div>
 
+    <!-- القسم 1: الهيدر والتعريف -->
+    <header id="home">
+        <nav class="navbar">
+            <div class="logo">
+                <h2><span class="highlight">عبدالفضيل</span>.dev</h2>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">الرئيسية</a></li>
+                <li><a href="#projects">المشاريع</a></li>
+                <li><a href="#accounts">الحسابات</a></li>
+                <li><a href="#contact">تواصل معي</a></li>
+            </ul>
+            <div class="menu-toggle" id="menuToggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+
+        <div class="hero">
+            <div class="hero-content">
+                <h1>مرحباً، أنا <span class="highlight">عبدالفضيل</span></h1>
+                <h2>مطور وبرمجي تطبيقات ومواقع ويب</h2>
+                <p>أهلاً بك في موقعي الشخصي حيث يمكنك التعرف عليّ، ومشاهدة مشاريعي البرمجية، وحساباتي على منصات التواصل المختلفة.</p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn primary-btn">مشاهدة مشاريعي</a>
+                    <a href="#accounts" class="btn secondary-btn">حساباتي</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="image-placeholder">
+                    <i class="fas fa-user-circle"></i>
+                    <p>صورة شخصية هنا</p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- القسم 2: المشاريع -->
+    <section class="section" id="projects">
+        <div class="section-header">
+            <h2>مشاريعي <span class="highlight">البرمجية</span></h2>
+            <p>أبرز المشاريع التي قمت بتطويرها وبرمجتها</p>
+        </div>
+        
+        <div class="projects-container">
+            <div class="project-card">
+                <div class="project-image">
+                    <div class="image-placeholder">
+                        <i class="fas fa-code"></i>
+                    </div>
+                </div>
+                <div class="project-content">
+                    <h3>مشروع تطبيق ويب متكامل</h3>
+                    <p>تطبيق ويب تفاعلي مبني باستخدام أحدث تقنيات الويب مثل React وNode.js مع قاعدة بيانات MongoDB.</p>
+                    <a href="#" class="project-link">عرض المشروع <i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            
+            <div class="project-card reverse">
+                <div class="project-content">
+                    <h3>نظام إدارة محتوى</h3>
+                    <p>نظام إدارة محتوى متكامل يسمح للمستخدمين بإدارة مقالاتهم ومنتجاتهم بسهولة.</p>
+                    <a href="#" class="project-link">عرض المشروع <i class="fas fa-external-link-alt"></i></a>
+                </div>
+                <div class="project-image">
+                    <div class="image-placeholder">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="project-card">
+                <div class="project-image">
+                    <div class="image-placeholder">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                </div>
+                <div class="project-content">
+                    <h3>تطبيق جوال متعدد المنصات</h3>
+                    <p>تطبيق جوال يعمل على نظامي Android وiOS مبني باستخدام Flutter.</p>
+                    <a href="#" class="project-link">عرض المشروع <i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- القسم 3: الحسابات والروابط -->
+    <section class="section dark-section" id="accounts">
+        <div class="section-header">
+            <h2>حساباتي <span class="highlight">ومواقعي</span></h2>
+            <p>يمكنك متابعتي على منصات التواصل المختلفة وزيارة مواقعي</p>
+        </div>
+        
+        <div class="accounts-container">
+            <!-- حساب GitHub -->
+            <div class="account-card">
+                <div class="account-icon github">
+                    <i class="fab fa-github"></i>
+                </div>
+                <div class="account-content">
+                    <h3>GitHub</h3>
+                    <p>مستودعات أكوادي ومشاريعي البرمجية المفتوحة المصدر</p>
+                    <a href="https://github.com/yourusername" target="_blank" class="account-link">زيارة حسابي <i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            
+            <!-- حساب Instagram -->
+            <div class="account-card">
+                <div class="account-icon instagram">
+                    <i class="fab fa-instagram"></i>
+                </div>
+                <div class="account-content">
+                    <h3>Instagram</h3>
+                    <p>حسابي الشخصي على إنستجرام حيث أشارك محتوى تقني وشخصي</p>
+                    <a href="https://instagram.com/yourusername" target="_blank" class="account-link">زيارة حسابي <i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            
+            <!-- حساب Telegram -->
+            <div class="account-card">
+                <div class="account-icon telegram">
+                    <i class="fab fa-telegram"></i>
+                </div>
+                <div class="account-content">
+                    <h3>Telegram</h3>
+                    <p>قناتي على تيليجرام حيث أشارك آخر تحديثاتي وأعمالي</p>
+                    <a href="https://t.me/yourusername" target="_blank" class="account-link">زيارة حسابي <i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            
+            <!-- موقع درر شيعة -->
+            <div class="account-card">
+                <div class="account-icon site">
+                    <i class="fas fa-globe"></i>
+                </div>
+                <div class="account-content">
+                    <h3>موقع درر شيعة</h3>
+                    <p>موقعي المخصص للمحتوى الإسلامي الشيعي</p>
+                    <a href="https://durar-she3a.com" target="_blank" class="account-link">زيارة الموقع <i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            
+            <!-- لعبة على متجر Play -->
+            <div class="account-card">
+                <div class="account-icon playstore">
+                    <i class="fab fa-google-play"></i>
+                </div>
+                <div class="account-content">
+                    <h3>لعبة على متجر Play</h3>
+                    <p>لعبة ممتعة قمت بتطويرها ومتاحة للتحميل على متجر Google Play</p>
+                    <a href="https://play.google.com/store/apps/details?id=com.yourgame" target="_blank" class="account-link">تحميل اللعبة <i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            
+            <!-- رابط إضافي -->
+            <div class="account-card">
+                <div class="account-icon portfolio">
+                    <i class="fas fa-briefcase"></i>
+                </div>
+                <div class="account-content">
+                    <h3>معرض أعمالي</h3>
+                    <p>معرض يحتوي على جميع أعمالي ومشاريعي السابقة</p>
+                    <a href="#" class="account-link">زيارة المعرض <i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- القسم 4: تواصل معي -->
+    <section class="section" id="contact">
+        <div class="section-header">
+            <h2>تواصل <span class="highlight">معي</span></h2>
+            <p>يمكنك التواصل معي عبر البريد الإلكتروني أو وسائل التواصل الاجتماعي</p>
+        </div>
+        
+        <div class="contact-container">
+            <div class="contact-info">
+                <h3>معلومات التواصل</h3>
+                <div class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <div>
+                        <h4>البريد الإلكتروني</h4>
+                        <p>contact@abaalfadeel.com</p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <div>
+                        <h4>الموقع</h4>
+                        <p>المملكة العربية السعودية</p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-user-tie"></i>
+                    <div>
+                        <h4>المهنة</h4>
+                        <p>مطور برمجيات ومواقع ويب</p>
+                    </div>
+                </div>
+                
+                <div class="social-links">
+                    <a href="https://github.com/yourusername" target="_blank" class="social-icon github"><i class="fab fa-github"></i></a>
+                    <a href="https://instagram.com/yourusername" target="_blank" class="social-icon instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="https://t.me/yourusername" target="_blank" class="social-icon telegram"><i class="fab fa-telegram"></i></a>
+                    <a href="https://durar-she3a.com" target="_blank" class="social-icon website"><i class="fas fa-globe"></i></a>
+                </div>
+            </div>
+            
+            <div class="contact-form">
+                <h3>أرسل لي رسالة</h3>
+                <form id="messageForm">
+                    <div class="form-group">
+                        <input type="text" placeholder="اسمك الكريم" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="بريدك الإلكتروني" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="رسالتك..." rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn primary-btn">إرسال الرسالة</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- الفوتر -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">
+                <h2><span class="highlight">عبدالفضيل</span>.dev</h2>
+                <p>مطور وبرمجي تطبيقات ومواقع ويب</p>
+            </div>
+            
+            <div class="footer-links">
+                <h4>روابط سريعة</h4>
+                <ul>
+                    <li><a href="#home">الرئيسية</a></li>
+                    <li><a href="#projects">المشاريع</a></li>
+                    <li><a href="#accounts">الحسابات</a></li>
+                    <li><a href="#contact">تواصل معي</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-links">
+                <h4>حساباتي</h4>
+                <ul>
+                    <li><a href="https://github.com/yourusername" target="_blank">GitHub</a></li>
+                    <li><a href="https://instagram.com/yourusername" target="_blank">Instagram</a></li>
+                    <li><a href="https://t.me/yourusername" target="_blank">Telegram</a></li>
+                    <li><a href="https://durar-she3a.com" target="_blank">درر شيعة</a></li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p>جميع الحقوق محفوظة &copy; <span id="currentYear"></span> عبدالفضيل</p>
+            <p>تم التطوير باستخدام HTML, CSS و JavaScript</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+  </html>
